@@ -1,0 +1,21 @@
+packages:
+  "framer-motion": "Animations for milestones, popups, and smooth transitions"
+  "date-fns": "Easy date manipulation for the 365-day calendar mapping"
+  "canvas-confetti": "Particle effects for milestone achievements"
+  "@types/canvas-confetti": "Types for canvas-confetti"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to safely merge Tailwind classes"
+  "lucide-react": "Beautiful icons for the UI"
+
+images:
+  - path: "artifacts/jee-tracker/public/images/hero-bg.png"
+    description: "Abstract minimal deep space dark background with subtle glowing neon purple and dark blue light leaks, distraction-free and professional"
+    aspect_ratio: "16:9"
+  - path: "artifacts/jee-tracker/public/images/coach-avatar.png"
+    description: "A cool, strict looking neon wireframe glowing AI robot avatar on dark background, representing a tough mentor"
+    aspect_ratio: "1:1"
+
+notes:
+  - App is fully offline and relies heavily on localStorage (key: 'jee_tracker_data').
+  - No backend API needed.
+  - The UI forces dark mode globally.
